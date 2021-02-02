@@ -32,11 +32,12 @@
 * GUI.
     * Aplicación de escritorio utilizando [Tkinter](https://docs.python.org/3/library/tkinter.html "Tkinter: Documentación Oficial.").
 
-**⚙️ Instalación :**
+**⚙️ Instalación:**
 * Instalar [Python 3.7](https://www.python.org/downloads/ "Descargar Python") o superior.
 * Instalar editor de texto [Visual Studio Code](https://code.visualstudio.com/Download "Descargar Visual Studio Code").
     * Agregar la [extensión de Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python "VS Code Marketplace > Python").
 * Descargar el contenido del repositorio [taller-introductorio-python-2021](https://github.com/jeison-araya/taller-introductorio-python-2021/archive/main.zip "taller-introductorio-python-2021").
+* Crear y configurar [entorno virtual]() de python.
 
 **👨‍💼 Colaboradores**
 * [Jeison Araya Mena](https://github.com/jeison-araya "Github profile")
