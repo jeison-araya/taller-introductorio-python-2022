@@ -21,6 +21,13 @@ En este apartado se encuentran las instrucciones para crear y configurar un ento
 
 ### Pasos para configurar un entorno virtual en Windows
 
+**📌Opción 1:**
+
+Ejecute, con permisos de administrador el script <a href="create_venv.bat" target="_blank">`create_venv.bat`</a>. Este programa crea e instala todos los módulos necesarios para el taller de forma automática.
+
+**📌Opción 2:**
+
+Siga los siguientes pasos para crear y configurar el entorno virtual de forma manual. 
 
 **⚙️ Crear entorno virtual:**
 
