@@ -33,7 +33,9 @@
     * Aplicación de escritorio utilizando [Tkinter](https://docs.python.org/3/library/tkinter.html "Tkinter: Documentación Oficial.").
 
 **⚙️ Instalación:**
-* Instalar [Python 3.7](https://www.python.org/downloads/ "Descargar Python") o superior.
+* Instalar Python 3.7 o superior.
+    * Descargar para [Microsoft Windows](https://www.microsoft.com/store/productId/9P7QFQMJRFP7 "Descargar Python").
+    * Descargar para [MacOs y Linux](https://www.python.org/downloads/ "Descargar Python").
 * Instalar editor de texto [Visual Studio Code](https://code.visualstudio.com/Download "Descargar Visual Studio Code").
     * Agregar la [extensión de Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python "VS Code Marketplace > Python").
 * Descargar el contenido del repositorio [taller-introductorio-python-2021](https://github.com/jeison-araya/taller-introductorio-python-2021/archive/main.zip "taller-introductorio-python-2021").
