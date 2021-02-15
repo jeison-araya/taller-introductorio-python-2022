@@ -34,7 +34,8 @@
 
 **⚙️ Instalación:**
 * Instalar Python 3.7 o superior.
-    * Descargar para [Microsoft Windows](https://www.microsoft.com/store/productId/9P7QFQMJRFP7 "Descargar Python").
+    * Descargar para [Windows](https://www.python.org/downloads/ "Descargar Python").
+        * Nota: Es importante  que durante la instalación seleccionar la opción "Add Python 3.x to PATH". Esto permite que el sistema pueda ejecutar comandos de Python desde la terminal CMD, los cuales son necesarios para la instalación del entorno virutal.
     * Descargar para [MacOs y Linux](https://www.python.org/downloads/ "Descargar Python").
 * Instalar editor de texto [Visual Studio Code](https://code.visualstudio.com/Download "Descargar Visual Studio Code").
     * Agregar la [extensión de Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python "VS Code Marketplace > Python").
