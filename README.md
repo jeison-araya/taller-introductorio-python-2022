@@ -33,10 +33,10 @@
 * GUI.
     * Aplicación de escritorio utilizando [Tkinter](https://docs.python.org/3/library/tkinter.html "Tkinter: Documentación Oficial.").
 * Contenido adicional:
-    * Docstrings.
+    * [Docstrings](https://www.python.org/dev/peps/pep-0257/ "Docstrings Oficial").
     * [PEP 8](https://www.python.org/dev/peps/pep-0008/ "Guía oficial PEP 8.").
-    * PyPi.
-    * PyPy.
+    * [PyPi](https://pypi.org/ "PyPi Oficial.").
+    * [PyPy](https://www.pypy.org/ "PyPy Oficial.").
     
 
 **⚙️ Instalación:**
