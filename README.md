@@ -10,6 +10,7 @@
     * Usos y trayectoria.
     * Configuración de entorno de trabajo.
     * Programa "Hola Mundo".
+    * Comentarios en Python.
 * Variables y tipos de datos.
     * Enteros.
     * Flotantes.
