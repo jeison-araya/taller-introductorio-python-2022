@@ -8,8 +8,8 @@
 **📌 Tabla de contenidos:**
 * ¿Qué es Python?
     * Usos y trayectoria.
-    * [PEP 8](https://www.python.org/dev/peps/pep-0008/ "Guía oficial PEP 8.").
     * Configuración de entorno de trabajo.
+    * Programa "Hola Mundo".
 * Variables y tipos de datos.
     * Enteros.
     * Flotantes.
@@ -31,6 +31,12 @@
     * Clases y objectos.
 * GUI.
     * Aplicación de escritorio utilizando [Tkinter](https://docs.python.org/3/library/tkinter.html "Tkinter: Documentación Oficial.").
+* Contenido adicional:
+    * Docstrings.
+    * [PEP 8](https://www.python.org/dev/peps/pep-0008/ "Guía oficial PEP 8.").
+    * PyPi.
+    * PyPy.
+    
 
 **⚙️ Instalación:**
 * Instalar Python 3.7 o superior.
