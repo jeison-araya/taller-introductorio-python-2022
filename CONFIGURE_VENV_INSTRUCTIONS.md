@@ -14,7 +14,7 @@ Para más información sobre entorno virtuales en python puede consultar los sig
 * [Tutorial de Python: virtualenv y por qué deberías utilizar entornos virtuales.](https://www.youtube.com/watch?v=N5vscPTWKOk)
 
 
-En este apartado se encuentran las instrucciones para crear y configurar un entorno virtual de python 3.7 o superior. Debe seguir los pasos según el sistema operativo que tenga instalado en su computadora.
+En este apartado se encuentran las instrucciones para crear y configurar un entorno virtual de python 3.8 o superior. Debe seguir los pasos según el sistema operativo que tenga instalado en su computadora.
 
 ---
 <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Windows_Phone_icon-icons.com_66782.png" alt="Windows OS" title="Windows Logo" align="right" height="32"  style="margin: 30px" />
@@ -23,8 +23,52 @@ En este apartado se encuentran las instrucciones para crear y configurar un ento
 
 **📌Opción 1:**
 
-Ejecute, con permisos de administrador el script <a href="create_venv.bat" target="_blank">`create_venv.bat`</a>. Este programa crea e instala todos los módulos necesarios para el taller de forma automática.
+* Abra la carpeta donde se encuentran los archivos del taller <small>(carpeta descrompimida en el paso 4 de la guía de instalación) </small>
 
+* Luego, ejecute el archivo `venv_installer.py`.
+
+    <a href="static\venv_installer_icon.png">
+        <img src="static\venv_installer_icon.png" alt="Venv installer" title="Python"/>
+    </a>
+
+    * Nota: Asegurese de tener instalado python 3.8 o superior para realizar este paso. En caso de presentarse algún error, vuelva a realizar el paso 1  de la guía de instalación.
+
+* Este programa se encarga de:
+    1. Crear un entorno virtual, dentro de la carpeta donde están los archivos del taller:
+    
+        <a href="static\venv_installer_o1.png">
+            <img src="static\venv_installer_o1.png" alt="Venv installer" title="Python"/>
+        </a>
+    <br>
+
+    2. Actualizar el sistema de gestor de paquetes (pip):
+    
+        <a href="static\venv_installer_o2.png">
+            <img src="static\venv_installer_o2.png" alt="Venv installer output" title="Python"/>
+        </a>
+        
+        <small>Nota: En caso de encontrarse con un mensaje de error como el marcado en la imagen anterior, proceda a omitirlo ya que no es fundamental para el propósito del taller.</small>
+    <br>
+
+    3. Instalar las dependencias contenidas en el archivo `requirements.txt`:
+        <a href="static\venv_installer_o3.png">
+            <img src="static\venv_installer_o3.png" alt="Venv installer output" title="Python"/>
+        </a>
+    
+    Una vez finalizada la instalación de las dependencias, debe obtener el siguiente mensaje.
+        
+    <a href="static\venv_installer_o4.png">
+        <img src="static\venv_installer_o4.png" alt="Venv installer output" title="Python"/>
+    </a>
+
+    Como resultado se crea un nuevo directorio llamado `venv`, el cual contiene una versión de Python independiente a la instalada en el sistema.
+
+    <a href="static\venv_installer_o5.png">
+        <img src="static\venv_installer_o5.png" alt="Venv installer output" title="Python" align="center"/>
+    </a>
+
+    De esta forma se concluye con la instalación del entorno virtual. En caso de tener dudas o inconvenientes, puede comunicarse con los desarrolladores del taller.
+    
 **📌Opción 2:**
 
 Siga los siguientes pasos para crear y configurar el entorno virtual de forma manual. 
@@ -33,7 +77,7 @@ Siga los siguientes pasos para crear y configurar el entorno virtual de forma ma
 
 * Abrir una [terminal CMD](), con permisos de administrador, donde se encuentra los archivos del  [taller-introductorio-python-2021](https://github.com/jeison-araya/taller-introductorio-python-2021/archive/main.zip "taller-introductorio-python-2021").
 * Ejecute el siguiente comando:
-`python3 -m venv venv`. Esta instrucción creará un nuevo directorio llamado `venv` con los archivos relacionados con el entorno virtual que se va a utilizar en este taller.
+`python -m venv venv`. Esta instrucción creará un nuevo directorio llamado `venv` con los archivos relacionados con el entorno virtual que se va a utilizar en este taller.
     * Para activar el entorno virtual debe ingresar el siguiente comando: `.\venv\Scripts\activate.bat`.
 * Una vez creado el entorno virtual, se debe instalar los módulos necesarios para el desarrollo de este taller.
 
