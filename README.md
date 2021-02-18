@@ -42,7 +42,7 @@ Este es el repositorio ofical del Taller introductorio a Python. Aquí se encuen
     * Configuración de entorno de trabajo.
     * Programa "Hola Mundo".
     * Comentarios en Python.
-
+    
 * Variables y tipos de datos.
     * Enteros, Flotantes.
     * Strings.
@@ -64,6 +64,12 @@ Este es el repositorio ofical del Taller introductorio a Python. Aquí se encuen
 
 * GUI.
     * Aplicación de escritorio utilizando [Tkinter](https://docs.python.org/3/library/tkinter.html "Tkinter: Documentación Oficial.").
+* Contenido adicional:
+    * [Docstrings](https://www.python.org/dev/peps/pep-0257/ "Docstrings Oficial").
+    * [PEP 8](https://www.python.org/dev/peps/pep-0008/ "Guía oficial PEP 8.").
+    * [PyPi](https://pypi.org/ "PyPi Oficial.").
+    * [PyPy](https://www.pypy.org/ "PyPy Oficial.").
+    
 
 
 <br>
