@@ -121,7 +121,7 @@ if dir_exist(venv_path):
 
 # Create venv
 
-show_message('Creando entorno virtual')
+show_message('1. Creando entorno virtual')
 print('Por favor, espere unos segundos...')
 create_venv(venv_path)
 
@@ -133,7 +133,7 @@ else:
 
 # Update venv
 
-show_message('Actualizando el sistema gestor de paquetes (pip)...')
+show_message('2. Actualizando sistema gestor de paquetes (pip)...')
 update_venv(venv_path)
 print('Se ha actualizado pip correctamente.')
 
@@ -141,7 +141,7 @@ print('Se ha actualizado pip correctamente.')
 
 requirements_path = path.join(dir_path, requirements_file_name)
 
-show_message('Instalando dependencias.')
+show_message('3. Instalando dependencias.')
 install_modules(venv_path, requirements_path)
 if validate_modules_required(venv_path, requirements_path):
     print('Las dependencias necesarias han sido instaladas.')
