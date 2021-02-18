@@ -93,7 +93,7 @@ Este es el repositorio ofical del Taller introductorio a Python. Aquí se encuen
 
 <br>
 
-**👨‍💼 Colaboradores**
+**👨‍💼 Desarrolladores**
 * [Gabriela Guevara Mora]()
 * [Jeison Araya Mena](https://github.com/jeison-araya "Github profile")
 * [Ian Ondoy Quirós]()
