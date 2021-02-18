@@ -9,8 +9,10 @@
 Este es el repositorio ofical del Taller introductorio a Python. Aquí se encuentra infomación importante sobre la preparación y el desarrallo del taller. Este repositorio contiene la guía de instalación <small>(realizar previo al taller)</small>, los contenidos que serán abordados, la agenda de trabajo y los nombres y contactos de los desarrolladores.
 
 
-
----
+<p align="right">
+    <img src="https://img.shields.io/github/repo-size/jeison-araya/taller-introductorio-python-2021">
+    <img src="https://img.shields.io/github/last-commit/jeison-araya/taller-introductorio-python-2021/main">
+</p>
 
 <br>
 
@@ -29,7 +31,7 @@ Este es el repositorio ofical del Taller introductorio a Python. Aquí se encuen
 3. Agregar la [extensión de Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python "VS Code Marketplace > Python") a VS Code.
 4. Descargar y descomprimir el contenido del repositorio [taller-introductorio-python-2021](https://github.com/jeison-araya/taller-introductorio-python-2021/archive/main.zip "taller-introductorio-python-2021").
 5. <a href="CONFIGURE_VENV_INSTRUCTIONS.md" target="_blank">Crear y configurar entorno virtual</a> de python.
-
+6. <a href="OPEN_NOTEBOOK_INSTRUCTIONS.md" target="_blank">Abrir el cuaderno de trabajo.</a>
 <br>
 
 ---
@@ -92,6 +94,6 @@ Este es el repositorio ofical del Taller introductorio a Python. Aquí se encuen
 <br>
 
 **👨‍💼 Colaboradores**
-* Gabriela Guevara Mora
+* [Gabriela Guevara Mora]()
 * [Jeison Araya Mena](https://github.com/jeison-araya "Github profile")
-* Ian Ondoy Quirós
+* [Ian Ondoy Quirós]()
