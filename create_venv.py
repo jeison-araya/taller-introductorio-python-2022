@@ -18,6 +18,7 @@ from shutil import rmtree
 venv_name = 'venv'
 requirements_name = 'requirements.txt'
 box_messages_border = ''
+scripts_dir_name = ''
 
 for x in range(50):
     box_messages_border += '='
@@ -57,10 +58,12 @@ def create_venv(venv_path):
     venv.create(venv_path, clear=True, with_pip=True)
     
 def update_venv(venv_path):
-    exec_command(path.join(venv_path, 'Scripts', 'pip install --upgrade pip --no-color'))    
+    global scripts_dir_name
+    exec_command(path.join(venv_path, scripts_dir_name, 'pip install --upgrade pip --no-color'))    
 
 def install_modules(venv_path, requirements_path):
-    exec_command(path.join(venv_path, 'Scripts', 'pip install -r {}'.format(requirements_path)))    
+    global scripts_dir_name
+    exec_command(path.join(venv_path, scripts_dir_name, 'pip install -r {}'.format(requirements_path)))    
 
 # Check python version.
 validate_python_version()
@@ -70,11 +73,9 @@ validate_python_version()
 operative_system = platform.system() 
 
 if operative_system == 'Windows':
-    pass
-elif operative_system == 'Linux':
-    pass
-elif operative_system == 'Darwin':
-    pass
+    scripts_dir_name = 'Scripts'
+elif operative_system == 'Linux' or operative_system == 'Darwin':
+    scripts_dir_name = 'bin'
 else: 
     input('Error: Sistema operativo no soportado.')
     sys.exit(1)
