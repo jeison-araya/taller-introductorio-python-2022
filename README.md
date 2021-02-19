@@ -40,7 +40,7 @@ Este es el repositorio ofical del Taller introductorio a Python. Aquí se encuen
 
 * ¿Qué es Python?
     * Usos y trayectoria.
-    * Estandar [PEP 8](https://www.python.org/dev/peps/pep-0008/ "Guía oficial PEP 8.").
+    * Estándar [PEP 8](https://www.python.org/dev/peps/pep-0008/ "Guía oficial PEP 8.").
     * Configuración de entorno de trabajo.
     * Programa "Hola Mundo".
     * Comentarios en Python.
